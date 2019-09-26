@@ -10,6 +10,7 @@ namespace projeto_net_core.core
             Carro carro = new Carro();
             carro.id = Guid.NewGuid();
             carro.modelo = "Gol";
+            carro.ano = 2000;
 
             Console.WriteLine("Hello World!");
         }

@@ -8,5 +8,6 @@ namespace projeto_net_core.core.Entidade
     {
         public Guid id { get; set; }
         public string modelo { get; set; }
+        public int ano { get; set; }
     }
 }
